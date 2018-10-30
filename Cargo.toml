@@ -1,0 +1,15 @@
+[package]
+authors = ["Frederick Gnodtke <frederick@gnodtke.net>"]
+build = "build.rs"
+name = "opus-sys"
+description = "FFI bindings for opus"
+repository = "https://github.com/Prior99/opus-sys"
+keywords = ["opus", "c", "ffi", "audio", "encoder", "decoder", "codec"]
+license = "BSD-2-Clause"
+version = "0.1.0"
+readme = "README.md"
+categories = ["multimedia::audio"]
+
+[build-dependencies]
+bindgen = "0.43"
+cc = "1.0"
